@@ -10,5 +10,4 @@ function printFarmInventory(cows, chickens){
     }
     console.log(chickennum + " Chickens");
 }
-
 printFarmInventory(3, 17);

@@ -37,7 +37,6 @@
 // ]
 
 var jounral = [];
-
 function addEntry(events, didTurnintoaSquirrel){
     jounral.push(
         {
