@@ -11,26 +11,26 @@
 }
 
 {
-    function mydisplayer(some){
+    function mydisplayer(some) {
         document.getElementById("demo").innerHTML = some
     }
     let myCalculator = new Function("a", "b", "return a+b;");
 
-    let result = myCalculator(5,5);
-    (function(){
+    let result = myCalculator(5, 5);
+    (function () {
         document.getElementById("demo").innerHTML = "Hello";
     })()
 }
 
 {
-    function mydisplayer(some){
+    function mydisplayer(some) {
         document.getElementById("demo2").innerHTML = some
     }
-    function myCalculator(a, b, myCallback){
-        let sum =  a+b;
+    function myCalculator(a, b, myCallback) {
+        let sum = a + b;
         myCallback(sum);
     }
-    myCalculator(2,20,mydisplayer);
+    myCalculator(2, 20, mydisplayer);
 }
 
 {
@@ -38,16 +38,16 @@
     print("Ayush");
 }
 {
-    (function(){
+    (function () {
         console.log("This is a self invocating function");
     })();
 }
 
 {
-    function animal(name){
+    function animal(name) {
         this.name = name;
-        animal.prototype.speak = function(){
-            console.log("I'm a "+this.name);
+        animal.prototype.speak = function () {
+            console.log("I'm a " + this.name);
         }
     }
 
@@ -56,10 +56,31 @@
 }
 
 {
-    function arrayprint(...a){
+    function arrayprint(...a) {
         console.log(a);
     }
-    arrayprint(1,2,3,4,5,6,"Ayush");
+    arrayprint(1, 2, 3, 4, 5, 6, "Ayush");
+}
+{
+    console.log(this.animal);
 }
 
- 
+
+{
+    function animal(name) {
+        this.name = name;
+    }
+    animal.prototype.speak = function () {
+        console.log("I'm " + this.name);
+    };
+    function human(name) {
+        this.name = name;
+    }
+    let x = new human("ayush");
+    animal.prototype.speak.call(x);
+
+}
+
+{
+
+}
