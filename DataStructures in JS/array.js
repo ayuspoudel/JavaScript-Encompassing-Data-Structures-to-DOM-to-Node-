@@ -21,28 +21,32 @@ let search = (arr, key) => {
 let insertionpoint = (arr, key) =>{
     let start = 0;
     let end = arr.length -1;
-    let mid = start + (end-start)/2;
+    let mid = -1;
     while(start<=end){
-        if(arr[mid] == key){
+        mid = start + Math.floor(end-start)/2;
+        if(arr[mid] === key){
             return mid;
         }
-        else if(arr[mid>key]){
-            start = mid +1;
+        else if(arr[mid]>key){
+            end = mid -1;
         }
-        {
-            end =  mid -1;
+        else {
+            start =  mid +1;
         }
     }
     return start;
 }
 
 let push = (arr, key) =>{
+    arr.length++;
     let pos = insertionpoint(arr, key);
-    for(let i = arr.length -1; i>=pos;i--){
+    for(let i = arr.length -2; i>=pos;i--){
         arr[i+1] = arr[i];
     }
-    console.log(arr);
+    arr[pos] = key;
+    return arr;
 }
 
 console.log(search(newArray, 20));
 push(newArray, 15);
+console.log(newArray);
