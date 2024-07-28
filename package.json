@@ -1,0 +1,261 @@
+abbsa*{
+    background-color: none;
+    color: green;
+}
+.p1{
+    border-style: solid;
+    border-radius: 20px;
+    border-color: blue;
+    border-top-left-radius: 20px;
+    border-width: 5px;
+    margin-top: 40px;
+    margin-left: 90px;
+    padding-left: 50px;
+    padding-top: 60px;
+
+    
+
+
+
+    height: 100px;
+    width: 150px;
+}
+img{
+    opacity: 9;
+    width: max-content;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    top: 0px;
+    z-index: -3;
+}
+.p1:hover{
+    background-color: grey;
+    color: black;
+    outline: solid white 5px;
+}
+
+aside{
+    position: sticky;
+    top:0px;
+    bottom: 20px;
+}
+
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+  p{
+    display: flex;
+    flex:content
+  }*{
+    background-color: none;
+    color: green;
+}
+.p1{
+    border-style: solid;
+    border-radius: 20px;
+    border-color: blue;
+    border-top-left-radius: 20px;
+    border-width: 5px;
+    margin-top: 40px;
+    margin-left: 90px;
+    padding-left: 50px;
+    padding-top: 60px;
+
+    
+
+
+
+    height: 100px;
+    width: 150px;
+}
+img{
+    opacity: 9;
+    width: max-content;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    top: 0px;
+    z-index: -3;
+}
+.p1:hover{
+    background-color: grey;
+    color: black;
+    outline: solid white 5px;
+}
+
+aside{
+    position: sticky;
+    top:0px;
+    bottom: 20px;
+}
+
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+  p{
+    display: flex;
+    flex:content
+  }*{
+    background-color: none;
+    color: green;
+}
+.p1{
+    border-style: solid;
+    border-radius: 20px;
+    border-color: blue;
+    border-top-left-radius: 20px;
+    border-width: 5px;
+    margin-top: 40px;
+    margin-left: 90px;
+    padding-left: 50px;
+    padding-top: 60px;
+
+    
+
+
+
+    height: 100px;
+    width: 150px;
+}
+img{
+    opacity: 9;
+    width: max-content;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    top: 0px;
+    z-index: -3;
+}
+.p1:hover{
+    background-color: grey;
+    color: black;
+    outline: solid white 5px;
+}
+
+aside{
+    position: sticky;
+    top:0px;
+    bottom: 20px;
+}
+
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+  p{
+    display: flex;
+    flex:content
+  }*{
+    background-color: none;
+    color: green;
+}
+.p1{
+    border-style: solid;
+    border-radius: 20px;
+    border-color: blue;
+    border-top-left-radius: 20px;
+    border-width: 5px;
+    margin-top: 40px;
+    margin-left: 90px;
+    padding-left: 50px;
+    padding-top: 60px;
+
+    
+
+
+
+    height: 100px;
+    width: 150px;
+}
+img{
+    opacity: 9;
+    width: max-content;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    top: 0px;
+    z-index: -3;
+}
+.p1:hover{
+    background-color: grey;
+    color: black;
+    outline: solid white 5px;
+}
+
+aside{
+    position: sticky;
+    top:0px;
+    bottom: 20px;
+}
+
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+  p{
+    display: flex;
+    flex:content
+  }
