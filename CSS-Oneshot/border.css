@@ -1,17 +1,13 @@
-.we{
-    text-align: center;
-    text-wrap: calc();
+div{
+    color: purple;
 }
-.ayush{
-    position: absolute;
-    right: 0px;
-    width: 300px;
-    display: inline-block;
-    height: 30px;
-    border: solid red 2px;
+div>p{
+    color:blue;
 }
-.raksh{
-    display:inline;
-    text-align: center;
-    border: solid red;
+div>h2{
+    color:pink;
+}
+
+h1{
+    color:gray;
 }
